@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Stepper</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31485994-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-31485994-5');
+    </script>
+</head>
+<body>
+
+<div class="wrap">
+    <div class="stepper vertical" data-start="255">
+        <img src="/img/arrow.svg" class="arrow top" alt="">
+        <div class="box">
+            <div class="numbers1 active">
+                <span>2</span>
+                <span>5</span>
+                <span>5</span>
+            </div>
+            <div class="numbers2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <img src="/img/arrow.svg" class="arrow bottom" alt="">
+    </div>
+
+    <div class="stepper horizontal" data-start="255">
+        <img src="/img/arrow.svg" class="arrow top" alt="">
+        <div class="box">
+            <div class="numbers1 active">
+                <span>2</span>
+                <span>5</span>
+                <span>5</span>
+            </div>
+            <div class="numbers2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <img src="/img/arrow.svg" class="arrow bottom" alt="">
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
