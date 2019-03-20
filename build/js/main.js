@@ -105,7 +105,6 @@ $('body').on('click', '.horizontal .arrow.top', () => {
       translateX: -185,
       duration: 0
     })
-    
   
     tl.add({
       targets: '.horizontal .box > div.active span',
