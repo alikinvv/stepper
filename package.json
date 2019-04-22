@@ -1,12 +1,12 @@
 {
-  "name": "workflow-gulp",
-  "version": "1.0.0",
+  "name": "stepper",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "4.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-cheerio": "^0.6.3",
     "gulp-concat": "^2.6.1",
@@ -26,13 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alikinvv/workflow-gulp.git"
+    "url": "git+https://github.com/alikinvv/stepper.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alikinvv/workflow-gulp/issues"
+    "url": "https://github.com/alikinvv/stepper/issues"
   },
-  "homepage": "https://github.com/alikinvv/workflow-gulp#readme"
+  "homepage": "https://github.com/alikinvv/stepper#readme"
 }
