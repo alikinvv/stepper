@@ -11,3 +11,27 @@ Animated numeric stepper component which can be used to increment or decrement a
 ![3d carousel](/src/img/gif.gif?raw=true)
 
 [![Analytics](https://ga-beacon.appspot.com/UA-31485994-5/stepper-repo)](https://github.com/alikinvv/stepper)
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/alikinvv/stepper/graphs/contributors"><img src="https://opencollective.com/stepper/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/stepper/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/stepper"><img src="https://opencollective.com/stepper/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/stepper/contribute)]
+
+<a href="https://opencollective.com/stepper/organization/0/website"><img src="https://opencollective.com/stepper/organization/0/avatar.svg"></a>
+
+
+
+
