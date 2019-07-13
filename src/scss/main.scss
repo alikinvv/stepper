@@ -94,9 +94,9 @@ body {
 			.numbers1 {
 				position: absolute;
 				top: 12px;
-				left: 80px;
+				left: 50%;
+				transform: translateX(-50%);
 				display: flex;
-				
 
 				span {
 					transform: translateY(0);
@@ -106,7 +106,8 @@ body {
 			.numbers2 {
 				position: absolute;
 				top: 12px;
-				left: 80px;
+				left: 50%;
+				transform: translateX(-50%);
 				display: flex;
 				
 				span {
