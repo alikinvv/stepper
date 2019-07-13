@@ -37,7 +37,7 @@ $('body').on('click', '.vertical .arrow.top', () => {
     .add({
       targets: '.vertical .box > div:not(.active) span',
       translateY: 0,
-      delay: anime.stagger(eachNumberDelay),
+      delay: anime.stagger(eachNumberDelay*2),
       duration: speed
     }, '-=' + speed * 1.06);
   
@@ -75,7 +75,7 @@ $('body').on('click', '.vertical .arrow.bottom', () => {
     .add({
       targets: '.vertical .box > div:not(.active) span',
       translateY: 0,
-      delay: anime.stagger(eachNumberDelay),
+      delay: anime.stagger(eachNumberDelay*2),
       duration: speed
     }, '-=' + speed * 1.06);
   
