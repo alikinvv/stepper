@@ -23,11 +23,7 @@ $('body').on('click', '.vertical .arrow.top', () => {
     
     tl = anime.timeline();
   
-    tl.add({
-      targets: '.vertical .box > div:not(.active) span',
-      translateY: -95,
-      duration: 0
-    })
+    tl
     .add({
       targets: '.vertical .box > div.active span',
       translateY: 95,
@@ -36,7 +32,7 @@ $('body').on('click', '.vertical .arrow.top', () => {
     })
     .add({
       targets: '.vertical .box > div:not(.active) span',
-      translateY: 0,
+      translateY: [-95, 0],
       delay: anime.stagger(eachNumberDelay),
       duration: speed
     }, '-=' + speed * 1.06);
@@ -61,11 +57,7 @@ $('body').on('click', '.vertical .arrow.bottom', () => {
     
     tl = anime.timeline();
   
-    tl.add({
-      targets: '.vertical .box > div:not(.active) span',
-      translateY: 95,
-      duration: 0
-    })
+    tl
     .add({
       targets: '.vertical .box > div.active span',
       translateY: -95,
@@ -74,7 +66,7 @@ $('body').on('click', '.vertical .arrow.bottom', () => {
     })
     .add({
       targets: '.vertical .box > div:not(.active) span',
-      translateY: 0,
+      translateY: [95, 0],
       delay: anime.stagger(eachNumberDelay),
       duration: speed
     }, '-=' + speed * 1.06);
